@@ -18,7 +18,7 @@ jobs:
 
     steps:
       # checkout the repo
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6.0.0
 
       # install ruby
       - uses: ruby/setup-ruby@401c19e14f474b54450cd3905bb8b86e2c8509cf
@@ -42,7 +42,7 @@ jobs:
 
     steps:
       # checkout the repo
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6.0.0
 
       # do not install ruby
 
